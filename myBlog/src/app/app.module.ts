@@ -8,6 +8,7 @@ import { HeroComponent } from './hero/hero.component';
 import { BlogPageComponent } from './blog-page/blog-page.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
@@ -22,7 +23,8 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
