@@ -21,7 +21,7 @@ export const posts = [
   }, {
     buttonPressed: '0',
     index: '3',
-    title: 'A Autumny Barbecue',
+    title: 'A Autumy Barbecue',
     subtitle: 'Pumpkin and Sellery Mash with glaced barbeque skewers',
     img: 'pumpkinPuree.jpg',
     dateHrf: '26.06.2020',
